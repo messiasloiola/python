@@ -1,0 +1,10 @@
+i = input('Digite algo: ')
+print('O tipo primitivo desse valor é ', type(i))
+print(f'É maiúsculo? {i.isupper()}')
+print(f'É alfabético? {i.isalpha()}')
+print(f'É alfanumérico? {i.isalnum()}')
+print(f'É número? {i.isnumeric()}')
+print(f'É minúsculo? {i.islower()}')
+print(f'É decimal? {i.isdecimal()}')
+print(f'É somente espaço? {i.isspace()}')
+print('Est;a capitalizada? {}'.format(i.istitle()))  # verifica se contém letras maiúsculas e minúsculas
